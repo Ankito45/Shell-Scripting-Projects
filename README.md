@@ -115,16 +115,6 @@ Your GitHub token needs:
 # Set token as environment variable
 export GITHUB_TOKEN="ghp_xxxxxxxxxxxxxxxxxxxx"
 ```
-## Enhancements
-
-Possible improvements to the script:
-- Add error handling for API rate limits
-- Display additional user information (permissions, contributions)
-- Support for pagination (repos with 100+ collaborators)
-- Export results to CSV or JSON format
-- Filter users by permission level
-
-
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
