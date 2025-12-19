@@ -1,6 +1,15 @@
 #!/bin/bash
 
-# helper()
+################
+# Author: Ankit
+# Date: 11th-June-2025
+#
+# Version: v1
+#
+# This script will list all usernames that are associated/collaborated to this repo
+################
+
+helper()
 # GitHub API URL
 API_URL="https://api.github.com"
 
@@ -37,11 +46,11 @@ function list_users_with_read_access {
     fi
 }
 
-# function helper {
-# expected_cmd_args=2
-#if [ $# -ne $expected_cmd_args]; then
-#echo "please execute the script with required cmd args"
-#echo "asd"
+function helper {
+   expected_cmd_args=2
+   if [ $# -ne $expected_cmd_args]; then
+   echo "Please execute the script with the required cmd args"
+   echo "asd"
 
 # Main script
 
